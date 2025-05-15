@@ -132,19 +132,11 @@ Solution: Re-ran terraform apply after instance size change.
  Images are being served from the S3 media bucket.
  
 # Screenshots
-Captured screenshots include:
-
-Terraform plan/apply output
-
-S3 bucket configurations
-
-Running backend app in PM2
-
-React frontend live on S3
-
-Image URL working
-
-.env content verification
+* pm2-backend.png → PM2 process showing backend running
+* mongodb-cluster.png → MongoDB Atlas cluster dashboard
+* media-upload-success.png → A blog post image successfully uploaded
+* s3-frontend.png → Frontend working in browser via S3 static site URL
+* Architecture.png → rchitecture-diagram.png → Visual representation of the deployed architecture showing the connection between EC2 backend server, MongoDB Atlas database, S3 frontend hosting, and media uploads via S3 bucket.
 
 # Cleanup:
 After completing the assignment:
